@@ -222,7 +222,7 @@ function Index() {
             </div>
             <div>
               <div className="font-semibold text-gold">Address</div>
-              <p className="mt-2 flex gap-2 text-sm"><MapPin className="h-4 w-4 shrink-0 text-gold" />No. 25, Kannamppukkara Street, Pattukkottai Town, Thanjavur District, Tamil Nadu</p>
+              <p className="mt-2 flex gap-2 text-sm"><MapPin className="h-4 w-4 shrink-0 text-gold" />No. 25, Sunnambukara Street, Pattukkottai Town, Thanjavur District, Tamil Nadu</p>
             </div>
             <div>
               <div className="font-semibold text-gold">Contact</div>
@@ -276,7 +276,7 @@ function DonationCard() {
           <div className="rounded-xl bg-secondary px-4 py-3"><dt className="text-xs text-muted-foreground">Account Holder</dt><dd className="font-semibold">ATCHAYATHANAM TRUST</dd></div>
         </div>
         <div className="rounded-xl bg-secondary px-4 py-3 text-xs text-muted-foreground">
-          <span className="font-semibold text-foreground">Registered address:</span> No. 25, Kannamppukkara Street, Pattukkottai Town, Thanjavur District, Tamil Nadu
+          <span className="font-semibold text-foreground">Registered address:</span> No. 25, Sunnambukara Street, Pattukkottai Town, Thanjavur District, Tamil Nadu
         </div>
       </dl>
     </div>
