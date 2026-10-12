@@ -12,9 +12,9 @@ import postOfficeDrive from "@/assets/meal-drive-post-office.jpeg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Akshaya Dhanam Trust — Daily Meals & Care for Elderly in Pattukkottai" },
-      { name: "description", content: "Akshaya Dhanam Trust provides daily food and dignified care to poor, abandoned elderly people in Pattukkottai, Tamil Nadu. Donate via UPI." },
-      { property: "og:title", content: "Akshaya Dhanam Trust | அட்சயதானம் அறக்கட்டளை" },
+      { title: "Atchayadhanam Trust — Daily Meals & Care for Elderly in Pattukkottai" },
+      { name: "description", content: "Atchayadhanam Trust provides daily food and dignified care to poor, abandoned elderly people in Pattukkottai, Tamil Nadu. Donate via UPI." },
+      { property: "og:title", content: "Atchayadhanam Trust | அட்சயதானம் அறக்கட்டளை" },
       { property: "og:description", content: "Serving with compassion. Sharing food. Building hope in Pattukkottai." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -54,7 +54,7 @@ function Index() {
           <a href="#home" className="flex min-w-0 items-center gap-3">
             <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-primary text-gold"><HandHeart className="h-6 w-6" /></span>
             <span className="min-w-0 leading-tight">
-              <span className="block truncate font-display text-xl font-bold text-primary">Akshaya Dhanam Trust</span>
+              <span className="block truncate font-display text-xl font-bold text-primary">Atchayadhanam Trust</span>
               <span className="block truncate text-xs text-muted-foreground">அட்சயதானம் அறக்கட்டளை</span>
             </span>
           </a>
@@ -216,7 +216,7 @@ function Index() {
           </p>
           <div className="mt-12 grid gap-10 md:grid-cols-3">
             <div>
-              <div className="font-display text-2xl font-bold text-primary-foreground">Akshaya Dhanam Trust</div>
+              <div className="font-display text-2xl font-bold text-primary-foreground">Atchayadhanam Trust</div>
               <div className="text-sm">அட்சயதானம் அறக்கட்டளை</div>
               <p className="mt-3 text-sm">Legal name: ATCHAYATHANAM TRUST. Serving poor and abandoned elderly with daily meals and dignified care.</p>
             </div>
@@ -231,7 +231,7 @@ function Index() {
               <p className="mt-2 flex items-center gap-2 text-sm"><Leaf className="h-4 w-4 text-gold" />UPI: {UPI_ID}</p>
             </div>
           </div>
-          <div className="mt-12 border-t border-primary-foreground/15 pt-6 text-center text-xs">© {new Date().getFullYear()} Akshaya Dhanam Trust. All rights reserved.</div>
+          <div className="mt-12 border-t border-primary-foreground/15 pt-6 text-center text-xs">© {new Date().getFullYear()} Atchayadhanam Trust. All rights reserved.</div>
         </div>
       </footer>
 
